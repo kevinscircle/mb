@@ -1,0 +1,16 @@
+{% extends 'base.html' %} 
+{% load static %} 
+
+{% block title %} About {% endblock title %} 
+
+{% block content %}
+<img src="{% static 'img/about_image.jpg' %}" alt="About Image" />
+<h1>About</h1>
+<p>Welcome to my about page!</p>
+<p>
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio fuga rerum
+  incidunt omnis voluptatibus quia, ullam cupiditate commodi accusantium fugiat
+  at cumque deleniti sunt eos deserunt dolorem? Itaque, amet ullam?
+</p>
+
+{% endblock content %}
